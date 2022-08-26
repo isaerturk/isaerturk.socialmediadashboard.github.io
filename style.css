@@ -1,0 +1,108 @@
+:root {
+  --clr-bg: hsl(230, 17%, 14%);
+  --clr-topbg:hsl(232, 19%, 15%);
+  --clr-cardbg: hsl(228, 28%, 20%);
+  --clr-cardhover:hsl(228, 28%, 25%);
+  --clr-text1: hsl(228, 34%, 66%);
+  --clr-text2:hsl(0, 0%, 100%);
+  --clr-text3:hsl(163, 72%, 41%);
+  --clr-text4:hsl(356, 69%, 56%);
+}
+
+.darkmode {
+  --clr-bg:hsl(0, 0%, 100%);
+  --clr-topbg:hsl(225, 100%, 98%);
+  --clr-cardbg: hsl(227, 47%, 96%);
+  --clr-cardhover:hsl(227, 47%, 91%);
+  --clr-text1: hsl(228, 12%, 44%);
+  --clr-text2:hsl(230, 17%, 14%);
+}
+
+body {
+  background-color: var(--clr-bg);
+  transition: all ease-in-out 400ms;
+}
+
+.page-header {
+  background-color: var(--clr-topbg);
+  height: max-content;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: -1;
+}
+
+hr {
+  background-color: var(--clr-text1);
+  border-radius: 10px;
+}
+
+.ph-left h1 {
+  color: var(--clr-text2);
+}
+
+.ph-left h4,
+.ph-right h4 {
+  color: var(--clr-text1);
+}
+
+.total-container > div,
+.overview-box {
+  background-color: var(--clr-cardbg);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.total-container > div:hover,
+.overview-box:hover {
+  background-color: var(--clr-cardhover);
+}
+
+.total-container .facebook-box .top-border {
+  background-color: hsl(208deg, 92%, 53%);
+}
+.total-container .twitter-box .top-border {
+  background-color: hsl(203deg, 89%, 53%);
+}
+.total-container .instagram-box .top-border {
+  background-image: linear-gradient(to right, hsl(37deg, 97%, 70%), hsl(329deg, 70%, 58%));
+}
+.total-container .youtube-box .top-border {
+  background-color: hsl(348deg, 97%, 39%);
+}
+
+span#username,
+span.view-text,
+.attribution a {
+  color: var(--clr-text1);
+}
+
+span#followers,
+span.today-text,
+.overview-header,
+.view-count,
+.attribution {
+  color: var(--clr-text2);
+}
+
+span#follower-text {
+  color: var(--clr-text1);
+  letter-spacing: 0.35em;
+}
+
+span.today-text-green {
+  color: var(--clr-text3);
+}
+
+span.today-text-red {
+  color: var(--clr-text4);
+}
+
+@media screen and (min-width: 1280px) {
+  .total-container > div {
+    width: 23%;
+  }
+  .overview-boxes > div:not(.attribution) {
+    width: 23%;
+  }
+}/*# sourceMappingURL=style.css.map */

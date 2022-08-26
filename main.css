@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+/* toggle button */
+.check{
+    position: relative;
+    display: block;
+    height: 28px;
+    width: 50px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+    background-color:hsl(230, 22%, 74%);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all ease-in 0.5s;
+}
+.check::before{
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 6px;
+    background-color: hsl(228, 28%, 20%);
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    transition: .5s;
+}
+input[type="checkbox"]:checked ~ .check:before
+{
+    transform: translateX(100%);
+    background-color: hsl(227, 47%, 96%);
+}
+input[type="checkbox"]:checked ~ .check{
+    transition: all ease-in-out 300ms;
+    background-image: none;
+}
