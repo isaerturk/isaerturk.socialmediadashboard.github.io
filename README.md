@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Here](https://your-solution-url.com)
-- Live Site URL: [live Site Here]([(https://isaerturk-socialmediadashboard-github-io.pages.dev/)])
+- Live Site URL: [live Site Here][(https://isaerturk-socialmediadashboard-github-io.pages.dev/)]
 
 ## My process
 
@@ -42,7 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Tailwind]([https://tailwindcss.com/]) - CSS Library
+- [Tailwind][https://tailwindcss.com/] - CSS Library
 
 ## Author
 
