@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Here:](https://your-solution-url.com)
-- Live Site URL: [live Site Here:]([https://your-live-site-url.com](https://isaerturk-socialmediadashboard-github-io.pages.dev/))
+- Solution URL: [Solution Here](https://your-solution-url.com)
+- Live Site URL: [live Site Here]([(https://isaerturk-socialmediadashboard-github-io.pages.dev/)])
 
 ## My process
 
