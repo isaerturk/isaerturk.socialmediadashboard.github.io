@@ -10,11 +10,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/ss1.png)
+![](/images/ss2.png)
+![](/images/ss3.png)
 
 
 ### Links
